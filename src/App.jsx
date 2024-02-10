@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Marqee from './components/Marqee';
 import About from './components/About';
 import Eyes from './components/Eyes';
+import Featured from './components/Featured';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Marqee/>
       <About/>
       <Eyes/>
+      <Featured/>
     </div>
   )
 }
