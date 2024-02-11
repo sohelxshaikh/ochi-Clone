@@ -4,7 +4,7 @@ import React from 'react'
 function Landing() {
 
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.5" className='w-full h-screen bg-zinc-900 pt-1'>
       <div className='textstructure mt-40 px-20  tracking-tighter'>
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return <div className='masker  flex items-center'>
